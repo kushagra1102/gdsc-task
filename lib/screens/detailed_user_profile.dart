@@ -104,14 +104,12 @@ class _DetailedUserProfileState extends State<DetailedUserProfile> {
             ),
             child: Column(
               children: [
-                myUser.avatarUrl == null ?
-                  Text("Please Wait") :
-                  CircleAvatar(
-                    radius: 100,
-                    backgroundImage: NetworkImage(myUser.avatarUrl!),
-                  ),
+                CircleAvatar(
+                  radius: 100,
+                  backgroundImage: NetworkImage(myUser.avatarUrl!),
+                ),
                 TextButton(
-                  child: Text('GITHUB PROFILE',style: STYLE2,),
+                  child: Text('GITHUB PROFILE',style: STYLE4,),
                   onPressed: () async{
                     await launch(myUser.htmlUrl!);
                   },
@@ -120,7 +118,7 @@ class _DetailedUserProfileState extends State<DetailedUserProfile> {
                   ),
                 ),
                 TextButton(
-                  child: Text('FOLLOWERS',style: STYLE2,),
+                  child: Text('FOLLOWERS',style: STYLE4,),
                   onPressed: () {
                     Navigator.push(
                       context,

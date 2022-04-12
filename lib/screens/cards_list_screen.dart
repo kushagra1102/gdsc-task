@@ -105,9 +105,9 @@ class _CardsListScreenState extends State<CardsListScreen> {
                         const SizedBox(width: 10,),
                         Column(
                           children: [
+                            Text("Id : ${_users[index].id}",style: STYLE3),
                             Text("Type : ${_users[index].type}",style: STYLE3),
                             Text("Site Admin : ${_users[index].siteAdmin}",style: STYLE3),
-                            Text("Id : ${_users[index].id}",style: STYLE3),
                             // Text("Node Id : ${_users[index].nodeId}",style: TextStyle(color: COLOR_BLACK),),
                             TextButton(
                               child: Text('GITHUB PROFILE'),
@@ -115,7 +115,7 @@ class _CardsListScreenState extends State<CardsListScreen> {
                                 await launch(_users[index].htmlUrl!);
                               },
                               style: TextButton.styleFrom(
-                                primary: Colors.pink,
+                                primary: Colors.black,
                                 textStyle: STYLE2,
                               ),
                             ),
@@ -128,7 +128,7 @@ class _CardsListScreenState extends State<CardsListScreen> {
                                 );
                               },
                               style: TextButton.styleFrom(
-                                primary: Colors.pink,
+                                primary: Colors.black,
                                 textStyle: STYLE2,
                               ),
                             ),
@@ -141,7 +141,7 @@ class _CardsListScreenState extends State<CardsListScreen> {
                                 );
                               },
                               style: TextButton.styleFrom(
-                                primary: Colors.pink,
+                                primary: Colors.black,
                                 textStyle: STYLE2,
                               ),
                             ),

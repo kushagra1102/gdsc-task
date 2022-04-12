@@ -118,7 +118,7 @@ class _FollowersScreenState extends State<FollowersScreen> {
                                   await launch(_users[index].htmlUrl!);
                                 },
                                 style: TextButton.styleFrom(
-                                  primary: Colors.pink,
+                                  primary: Colors.black,
                                   textStyle: STYLE2,
                                 ),
                               ),
@@ -131,7 +131,7 @@ class _FollowersScreenState extends State<FollowersScreen> {
                                   );
                                 },
                                 style: TextButton.styleFrom(
-                                  primary: Colors.pink,
+                                  primary: Colors.black,
                                   textStyle: STYLE2,
                                 ),
                               ),
@@ -144,7 +144,7 @@ class _FollowersScreenState extends State<FollowersScreen> {
                                   );
                                 },
                                 style: TextButton.styleFrom(
-                                  primary: Colors.pink,
+                                  primary: Colors.black,
                                   textStyle: STYLE2,
                                 ),
                               ),

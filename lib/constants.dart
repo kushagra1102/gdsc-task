@@ -11,13 +11,19 @@ TextStyle STYLE1 = TextStyle(
   fontSize: 20,
 );
 TextStyle STYLE2 = TextStyle(
+  decoration: TextDecoration.underline,
   color: Colors.yellow,
   fontWeight: FontWeight.bold,
-  fontSize: 16,
+  fontSize: 12,
 );
 TextStyle STYLE3 = TextStyle(
   color: Colors.black,
   fontWeight: FontWeight.w500,
-  fontSize: 16,
+  fontSize: 12,
 );
-
+TextStyle STYLE4 = TextStyle(
+  decoration: TextDecoration.underline,
+  color: Colors.orange,
+  fontWeight: FontWeight.bold,
+  fontSize: 20,
+);
